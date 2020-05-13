@@ -14,8 +14,8 @@ namespace Infrastructure.Identity
                 var user = new AppUser
                 {
                     DisplayName = "Bob",
-                    Email = "bob@test.com",
-                    UserName = "bob@test.com",
+                    Email = "gavriend@gmail.com",
+                    UserName = "gavriend@gmail.com",
                     Address = new Address
                     {
                         FirstName = "Bob",
@@ -27,7 +27,7 @@ namespace Infrastructure.Identity
                     }
                 };
 
-                await userManager.CreateAsync(user, "Pa$$w0rd");
+                await userManager.CreateAsync(user, "MtYBPWwg7!xYb$8df$#89");
             }
         }
     }
